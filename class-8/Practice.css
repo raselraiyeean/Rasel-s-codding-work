@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 0, 221);
+    background-image: url("images/peoplebusiness.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #eb1651;
+    /* background-size: 100% 100%; */
+    background-position: left top;
+    background-size: cover;
+    
+}
+
+.two {
+    width: 100%;
+    height: 1000px;
+    color: #37f707;
+     /* background-color: rgb(255, 0, 221);
+    background-image: url("images/fantastic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    background-position: left top;
+    /* background-size: 100% 100%; */
+    /* background-size: cover;  */ 
+    background: #eb1651 url(images/peoplebusiness.jpg) no-repeat fixed center center / cover;
+    
+}
+ /* Global css Strat */
+ .globalCss {
+    
+    float: left;
+    overflow: hidden;
+    background-color: #8080b5;
+    height: 60%;
+    opacity: .5;
+    padding: 10px;
+    color: #020e00;
+    border-radius: 10px;
+
+    }
+  
+ /* Global CSS End */
+
+.homework {
+    width: 100%;
+    height: 405px;
+    
+    background: url(images/peoplebusiness.jpg) no-repeat fixed center center / cover;
+}
+
+.subDiv1 {
+    width: 25%;
+    /* margin-right: 5px; */
+    
+
+}
+
+.subDiv2 {
+    width: 50%;
+    /* margin-right: 5px; */
+    text-align: right;
+    
+    
+}
+
+.subDiv3 {
+    width: 25%;
+    /* margin-left: 0px; */
+    
+}
+
+  p:hover {
+    background-color: yellow;
+}
+.subDiv1 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 5px;
+}
+
+.subDiv3 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 5px;
+}
+
+.subDiv1 p {
+    float: right;
+    overflow: hidden;
+}
+.subDiv2 img {
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-left: 5px;
+}

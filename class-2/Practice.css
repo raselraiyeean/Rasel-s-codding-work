@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #030e22;
+}
+.test {
+    background-color: greenyellow;
+    padding: 20px;
+    width: 30%;
+}
+.test h1 {
+    color: #fff;
+    background-color: black;
+    font-size: 40px;
+}
+.test h2 {
+    color: #fff;
+    background-color: black;
+    font-size: 32px;
+}

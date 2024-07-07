@@ -1,0 +1,54 @@
+/* body {
+    margin: 0;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1::before {
+    content: 'Love you ';
+} */
+
+/* h1::before {
+    content: url('images/fire_anim.gif');
+    display: inline-block;
+    padding: 2px;
+} */
+
+/* h1::after {
+    content: url('images/fire_anim.gif');
+    display: inline-block;
+    padding: 2px;
+} */
+
+.one {
+    
+    border: 2px solid #f1c40f ;
+    /* overflow: hidden; */
+}
+
+.two {
+    height: 50px;
+    border: 2px solid #f10fd3;
+    float: left;
+    background: #f10fd3;
+}
+
+.three {
+    height: 25px;
+    border: 2px solid #4b0ff1;
+    margin-top: 20px; 
+}
+
+.four {
+    clear: both;
+}
+
+.one::after {
+    content: '';
+    display: block;
+    clear: both;
+}

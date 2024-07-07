@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #7f8c8d;
+}
+
+.one {
+    width: 50%;
+    height: 300px;
+    background: #8e44ad;
+    float: left;
+}
+
+.two {
+    width: 50%;
+    height: 300px;
+    background: #62e716;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+    .one {
+        
+        background: #0c08c7;
+    }
+
+}
+
+@media only screen and (max-width: 600px)  {
+    body {
+        background: #27ae60;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background: #27ae60;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .one {
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .two {
+        width: 100%;
+        background: red;
+
+    }
+}

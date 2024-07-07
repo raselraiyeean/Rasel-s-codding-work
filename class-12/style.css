@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    width: 200px;
+    height: 200px;
+    background: #30336b;
+}
+
+.two {
+    width: 200px;
+    height: 200px;
+    background: #f1c40f;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.three {
+    width: 200px;
+    height: 200px;
+    background: #7f8c8d;
+}

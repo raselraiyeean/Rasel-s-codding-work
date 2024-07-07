@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.one {
+    width: 33.33%;
+    height: 200px;
+    background-color: #1c3946;
+    float: left;
+    text-align: center;
+    color: azure;
+    padding: 10px;
+
+}
+
+.two {
+    width: 33.33%;
+    height: 200px;
+    background-color: #2a300c;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    color: azure;
+    padding: 10px;
+}
+.three {
+    width: 33.33%;
+    height: 200px;
+    background-color: #17640d;
+    overflow: hidden;
+    text-align: center;
+    color: azure;
+    padding: 10px;
+
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    width: 500px;
+    height: 500px;
+    background-color: #3498db;
+    margin: 10px auto 0;
+    padding: 15px;
+    color: #fff; 
+    background-repeat: no-repeat;
+    border: 5px dashed black;
+    /* background-clip: padding-box; */
+    background-clip: border-box;
+    /* background-clip: content-box; */
+    /* background: url(images/peoplebusiness.jpg); */
+    opacity: 0.5;
+    background: url(images/nightmoon.jpg) no-repeat 20% 5% / 100px auto , url(images/nightsky.jpeg) no-repeat center center / cover;
+   
+
+}
+ 
+.one p {
+    margin-top: 123px;
+}
+
+body {
+    background: url(images/backimages.webp) no-repeat fixed center center / cover;
+
+}

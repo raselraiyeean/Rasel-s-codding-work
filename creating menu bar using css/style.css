@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-menu {
+    background-color: #0077c7;
+    overflow: hidden;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-menu ul li {
+    float: left;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.main-menu::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.main-menu ul li a:hover {
+    background: #ed1a3b;
+}

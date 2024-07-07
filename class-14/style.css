@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .one {
+    width: 200px;
+    height: 200px;
+    background: #3498db;
+    position: absolute;
+    z-index: -3;
+}
+
+.two {
+    width: 200px;
+    height: 200px;
+    background: #27ae60;
+    position: absolute;
+    z-index: -2;
+}
+
+.three {
+    width: 200px;
+    height: 200px;
+    background: #8e44ad;
+    position: absolute;
+    z-index: -1;
+} */
+
+.main-content {
+    width: 18%;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 77px;
+    z-index: 2;
+    color: #d7ef10;
+    text-align: center;
+
+
+}
+
+.board-img {
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
+}

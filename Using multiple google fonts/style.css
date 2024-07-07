@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:ital,wght@100..400&display=swap');
+
+body {
+    margin: 0;
+}
+
+.one h3 {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.two h3 {
+    font-family: "Playwrite NZ", cursive;
+    font-style: italic;
+}
+
+.two  {
+    font-family: "Playwrite NZ", cursive;
+    font-style: italic;
+}

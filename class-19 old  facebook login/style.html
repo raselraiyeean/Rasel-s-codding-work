@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/faviconfacebook.ico">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+ 
+    <header class="header-area">
+        <div class="container">
+            <div class="w-20">
+                <div class="logo-area">
+                    <img src="images/old-fb-logo.png" alt="Facebook">
+                </div>
+            </div>
+            <div class="w-80">
+                <div class="login-area">
+                    <form action="#">
+                            <div class="w-44 spacing">
+                                <div class="email-area">
+                                        <label for="Email-phone">Email or Phone</label>
+                                    <input type="text" name="Email-phone" id="Email-phone"> 
+                                </div>    
+                                </div>
+                            <div class="w-44 spacing">
+                                <div class="password-area">
+                                    <label for="Password">Password</label>
+                                    <input type="password" name="Password" id="Password">
+                                    <a href="#">Forgotten Password?</a>
+                                </div>
+                                
+                            </div>
+                            <div class="w-12">
+                                <input type="submit" value="Log In">
+                            </div>
+                        </form>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="main-area">
+        <div class="container">
+           <div class="w-50">
+                <div class="facebook-help">
+                    <h3>Facebook helps you connect and share with the  people in your life.</h3>
+                </div>
+             <div class="connect-people">
+                <img src="images/connect-people.png" alt="Image of connect people">
+               
+             </div>
+           </div>
+
+           <div class="w-50">
+             <div class="acc-heading">
+                <h1>Create an Account</h1>
+                <h3>It's free and always will be</h3>
+                <div class="reg-form">
+                    <form action="#">
+                        <div class="first-last-name">
+                            <div class="w-50" id="spacing">
+                                <input type="text"   name="first-name" id="first-name" placeholder="First Name">
+                            </div>
+                            <div class="w-50" id="spacing-left">
+                                <input type="text"  name="last-name" id="last-name" placeholder="Second Name">
+                            </div>
+                        </div>
+                        <input type="email" name="email-address" id="email-address" placeholder="Phone Number or Email">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <input type="password" name="re-enter-password" id="re-enter-password" placeholder="Re-enter Password">
+                        <div class="birthday-text">
+                            Birthday
+                        </div>
+                        <div class="birthday-select">
+                            <div class="dob-element">
+                                <select name="datepicker" id="datepicker">
+                                
+                                </select>
+                                <select name="dob-month" id="dob-month">
+                                    <option value="January">January</option>
+                                    <option value="February">February</option>
+                                    <option value="March">March</option>
+                                    <option value="April">April</option>
+                                    <option value="May">May</option>
+                                    <option value="June">June</option>
+                                    <option value="July">July</option>
+                                    <option value="August">August</option>
+                                    <option value="September">September</option>
+                                    <option value="October">October</option>
+                                    <option value="November">November</option>
+                                    <option value="December">December</option>
+                                </select>
+                                <select name="yearpicker" id="yearpicker"></select>
+                            </div>
+                            
+                            <div class="dob-link">
+                                <a href="#">Why do I need to provide my <br> date of birht?</a>
+                            </div>
+
+
+                            <div class="gender-select">
+                                <input type="radio" name="gender" value="male" id="male"> <label for="male">Male</label>
+                                <input type="radio" name="gender" value="female" id="female"> <label for="female">Female</label>
+                            </div> 
+                            <p>By clicking Create an account if you agree to our <a href="#">terms</a>. I want to be a great programmer in the world.</p>
+                            <input type="submit" value="Create an account">                        
+
+                        </div>
+
+                    </form>
+                </div>
+                <div class="create-page">
+                    <p> <a href="#">Create a page</a> for a celebrity, brand or business.</p>
+
+                </div>
+             </div>
+
+
+           </div> 
+        </div>
+    </div>
+
+
+  
+   
+<script type="text/javascript"
+src="js/jquery-3.7.1.min.js"> 
+</script>
+<script type="text/javascript">
+let startYear = 1800;
+let endYear = new Date().getFullYear();
+for (i = endYear; i > startYear; i--)
+{
+$('#yearpicker').append($('<option />').val(i).html(i));
+}
+
+let startDate = 1;
+let endDate = 31;
+for (i = startDate; i <= endDate; i++)
+{
+$('#datepicker').append($('<option />').val(i).html(i));
+}
+
+
+</script>
+</body>
+</html>

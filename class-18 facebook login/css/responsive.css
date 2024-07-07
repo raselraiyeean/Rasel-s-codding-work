@@ -1,0 +1,86 @@
+@media only screen and (max-width: 763px) {
+    .container {
+        width: 90%;
+}
+.main-section-of-facebook {
+    padding: 80px 0;
+}
+
+.sign-in-form-div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-section-of-facebook .logo-area-facebook img {
+    width: 210px;
+    margin: -28px 5px;
+}
+
+
+h3 {
+    font-size: 23px;
+}
+
+.facebook-left-area-with-fb-logo {
+    margin-left: 30px;
+    
+}
+
+}
+
+@media only screen and (max-width: 414px) {
+    .w-50 {
+        width: 100%;
+        margin-top: 30px;
+        
+    } 
+    .footer-section-of-facebook {
+        font-size: 10px;
+    }
+
+    .footer-section-of-facebook .line {
+        margin: 20px 0;
+    }
+
+    .main-section-of-facebook .logo-area-facebook {
+        margin-top: -38px;
+    }
+
+    .main-section-of-facebook {
+        padding: 20px 0;
+    }
+     
+    .logo-area-facebook {
+        margin-left: 53px;
+    }
+
+    .main-section-of-facebook .facebook-facilities-under-logo h3 {
+        font-size: 20px;
+        margin: 11px 0 0 38px;
+        width: 230px;
+        text-align: center;
+    }
+    
+
+    .footer-section-of-facebook .languages ul {
+        overflow: hidden;
+    }
+
+    .main-section-of-facebook .logo-area-facebook img {
+        margin: -28px -3px;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 360px) {
+    .main-section-of-facebook .logo-area-facebook img {
+        margin: -28px -28px;
+    }
+
+    .main-section-of-facebook .facebook-facilities-under-logo h3 {
+        margin: 11px 0 0 16px;
+    }
+
+}
