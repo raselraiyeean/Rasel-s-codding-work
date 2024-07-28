@@ -1,0 +1,9 @@
+/* |= is used to selecting the attribute value is alone or connected with a hi-pen */
+.one [class|='link']{
+    background: greenyellow;
+}
+
+/* *= is used to selecting attribute value whether it is alone or connected with other word  */
+.two [class*='link']{
+    background: greenyellow;
+}
